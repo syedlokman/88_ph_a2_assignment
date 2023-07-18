@@ -1,6 +1,10 @@
 :root {
     --primary-color: #FF42A5;
-    --secondary-colo: black:
+    --secondary-color: #4EC5F7;
+}
+
+div{
+    border: 0px blue solid;
 }
 
 *{
@@ -9,19 +13,38 @@
     align-items: center;
     font-family: Work Sans;
     text-decoration: none;
+    color: #0B0223;
+}
+
+body{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 16px;
 }
 
 .margin{
     padding: 24px 120px;
 }
 
-div{
-    border: 0px solid blue;
+.button{
+    display: inline-flex;
+    padding: 24px 40px;
+    border-radius: 48px;
+    border: none;
+    margin-right: 16px;
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-items: end;
 }
 
 .header-nav{
@@ -40,7 +63,7 @@ div{
 }
 
 .section1-navBar-logo span{
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .section1-navBar-menu{
@@ -59,19 +82,73 @@ div{
     background: rgba(11, 2, 35, 0.10);
 }
 
-
-
-
-
-
-
 .section2-hero-div-info{
     grid-column: 1/3;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    background-image: url("images/Group 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section2-hero-div-info h2{
+    grid-column: 3/5;
+    font-size: 6rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section2-hero-div-info .hero-btn-1{
+    background-color: var(--primary-color);
+}
+
+.section2-hero-div-info .hero-btn-2{
+    background-color: var(--secondary-color);
+}
+
+.section2-hero-div-info p{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .section2-hero-div-img{
     grid-column: 3/5;
+    display: flex;
+    justify-content: end;
+    padding-right: 120px;
+    
 }
+
+.section2-hero-div-img img{
+    height: 548px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section3-onlineGamesTitle{
     grid-column: 1/5;
@@ -97,3 +174,5 @@ div{
 .section7-footer{
     grid-column: 1/5;
 }
+
+
