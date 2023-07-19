@@ -151,27 +151,34 @@ li{
 }
 
 .online-games-items{
+    width: 290px;
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: start;
+    flex-wrap: wrap;
 }
 
 .online-games-items img{
-    width:272px;
+    width: 100%;
 }
 
 .instant-play{
     grid-column: 1/5;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     gap: 64px;
     margin: 48px 0;
 }
 
 .section5-playInstantly-info{
     text-align: right;
+    width: 350px;
+}
 
+.section5-playInstantly-info p{
+    line-height: 24px;
+    padding-top: 16px;
 }
 
 .section5-playInstantly-info span{
@@ -217,27 +224,40 @@ li{
     padding: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section7-footer{
     grid-column: 1/5;
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+    background: #0B0223;
 }
 
+.footer-branding p, .footer-menu-1 a{
+    color: white;
+}
+
+.footer-branding{
+    display: flex;
+    margin: 40px 0 0;
+    gap: 32px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-branding span{
+    color: var(--primary-color);
+}
+
+.footer-copyright p, .footer-menu-2 a{
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.footer-menu-1, .footer-social, .footer-menu-2 {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+
+}
 
