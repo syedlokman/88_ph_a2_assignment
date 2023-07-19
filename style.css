@@ -226,9 +226,13 @@ li{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     flex-wrap: wrap;
     justify-content: center;
-    margin: 9rem auto;
     max-width: 192rem;
     align-items: center;
+}
+
+.section6-bottomButtons:hover{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .categoryItems{
