@@ -228,11 +228,8 @@ li{
     justify-content: center;
     max-width: 192rem;
     align-items: center;
-}
-
-.section6-bottomButtons:hover{
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+    padding-top: 9rem;
+    padding-bottom: 9rem;
 }
 
 .categoryItems{
@@ -243,6 +240,15 @@ li{
     background: #FFF;
     padding: 1.2rem;
     font-size: 2rem;
+    border:1px solid white;
+}
+
+.section6-bottomButtons a:hover strong{
+    color: var(--primary-color);
+}
+
+.section6-bottomButtons a:hover div{
+    border:1px solid var(--primary-color);
 }
 
 .section7-footer{
