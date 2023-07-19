@@ -169,7 +169,41 @@ li{
     align-items: start;
     flex-wrap: wrap;
     font-size: 2rem;
+    position: relative;
 }
+
+
+.online-games-hover-only{
+    position: absolute;
+    display: none;
+}
+
+.online-games-hover-only-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 34.2rem;
+    height: 40rem;
+    gap: 0.8rem;
+    background-color: #0b022376; 
+}
+
+.online-games-hover-only p{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.online-games-hover-only a img{
+    width: 48px;
+    height: 48px;
+}
+
+
+.online-games-items:hover div{
+    display:flex;
+}
+
 
 .online-games-items img{
     width: 100%;
@@ -230,6 +264,7 @@ li{
     align-items: center;
     padding-top: 9rem;
     padding-bottom: 9rem;
+    margin-top: 9rem;
 }
 
 .categoryItems{
@@ -287,7 +322,7 @@ li{
     margin-bottom: 9rem;
     display: flex;
     flex-direction: column;
-    gap:0.8rem;
+    gap:2.8rem;
 }
 
 .footer-copyright p, .footer-menu-2 a{
