@@ -132,27 +132,51 @@ li{
     height: 548px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section3-onlineGamesTitle{
     grid-column: 1/5;
+    margin: 48px 0;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.section4-onlineGamesItems{
+    grid-column: 1/5;
+    display: flex;
+    gap: 24px;
+    align-items: start;
+    justify-content: center;
+}
+
+.online-games-items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+}
+
+.online-games-items img{
+    width:272px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section4-onlineGamesItems{
     grid-column: 1/5;
